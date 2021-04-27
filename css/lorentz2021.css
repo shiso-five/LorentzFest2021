@@ -1,0 +1,233 @@
+﻿/* Tag property */
+body {
+	color: #000000;
+	/*background: #f8fbf8 url('../images/lorentz_background_1.png') fixed;*/
+	background: #f8fbf8;
+}
+
+h1 {
+	font-family:fantasy, sans-serif;
+	color: #eb6101;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	font-family: serif;
+	font-style: italic;
+}
+
+@media(max-width:680px){
+	h1{
+		font-size:2.4em;
+	}
+}
+
+@media(max-width:650px){
+	h1{
+		font-size:2.3em;
+	}
+}
+
+@media(max-width:600px){
+	h1{
+		font-size:2.1em;
+	}
+}
+
+@media(max-width:580px){
+	h1{
+		font-size:1.9em;
+	}
+}
+
+h2 {
+	font-family:"Meiryo UI", Meiryo, sans-serif;
+	border-bottom: 3px dashed #000000;
+	font-size: 1.6em;
+	padding-left: 24px;
+	background: url('../images/lorentz_icon.png') no-repeat left center;
+	border-left-color: #000000;
+	border-left-width: 3px;
+	border-right-color: #000000;
+	border-right-width: 3px;
+	border-top-color: #000000;
+	border-top-width: 3px;
+}
+
+h2 em, h2 .em {
+	color: #eb6101;
+	font-style: inherit;
+}
+
+p, dl {
+	font-family:"Meiryo UI", Meiryo, sans-serif;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+li{
+	font-family:"Meiryo UI", Meiryo, sans-serif;
+}
+
+img {
+	border-style: none;
+}
+
+table {
+	border: 2px solid #000000;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+}
+th, td {
+	font-family:"Meiryo UI", Meiryo, sans-serif;
+	border: 1px solid #000000;
+}
+dt {
+
+}
+dd {
+	margin-bottom: 0.5em;
+}
+
+/* Class */
+.frame {
+	padding: 1ex;
+	margin: auto;
+	max-width: 150ex;
+	border: 1px solid #CCCCCC;
+	background: #ffffff fixed;/*url('../../index_files/lorentz_background_2.png')*/
+}
+
+.framebg{
+	padding: 1ex;
+	padding-bottom:10px;
+	margin: auto;
+	max-width: 150ex;
+	background: -webkit-radial-gradient(blue 10%, green 50%, yellow 100%); /* For Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(blue 10%, green 50%, yellow 100%); /* For Opera 11.1 to 12.0 */
+	background: -moz-radial-gradient(blue 10%, green 50%, yellow 100%); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(blue 10%, green 50%, yellow 100%); /* Standard syntax */
+}
+
+.back_to_top{
+	float:left;
+	font-family:"Meiryo UI", Meiryo, sans-serif;
+}
+
+#pastlist a {
+	text-decoration:none;
+}
+
+/* Top */
+li.opendate {
+	font-size: large;
+	font-weight: bold;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+li.opendate em, li.opendate .em {
+	color: #e60033;
+	font-weight: inherit;
+	text-decoration: underline;
+	font-style: inherit;
+}
+table.poster {
+	border-style: none;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+table.poster td {
+	border-style: none;
+}
+
+.thumbnail{
+	width:25%;
+	height:25%;
+}
+
+/* Map */
+dl.maplist dt {
+	border-left: 3px none #e8d3c7;
+	border-right: 3px none #e8d3c7;
+	border-top: 3px none #e8d3c7;
+	border-bottom: 3px solid #e8d3c7;
+	font-size: 1.2em;
+	padding-left: 16px;
+	background: url('../../index_files/map_icon.gif') no-repeat left center;
+	margin-top: 0.5em;
+}
+
+dl.maplist dd dl, dl.maplist dd dd {
+	margin: 0ex;
+}
+
+dl.maplist dd dt {
+	border-style: none;
+	font-size: inherit;
+	margin-right: auto;
+	background: url('../../index_files/map_subicon.gif') no-repeat left center;
+}
+
+#kounai_img img{
+	width: 611px;
+	/*height: 858px;*/
+}
+
+#map_4th_img img{
+	/*height: 267px;*/
+	width: 414px;
+}
+/*
+#map_5th_img img{
+	height: 1098px;
+	width: 851px;
+}
+*/
+
+.build_5th img{
+	width:300px;
+	height:342px;
+}
+/*
+@media(max-width:720px){
+	.build_5th img{
+		width:90%;
+		height:90%;
+	}
+}*/
+
+@media(max-width:720px){
+	 #kounai_img img{
+		width:400px;
+		/*height:100%;*/
+	}
+}
+/*
+@media(max-width:525px){
+	 #map_4th_img img{
+		width:100%;
+		height:100%;
+	}
+}
+
+@media(max-width:951px){
+	 #map_5th_img img{
+		width:100%;
+		height:100%;
+	}
+}
+*/
+
+/* Footer */
+div#footer {
+	font-style:italic;
+	border-width: 3px;
+	border-top-style: dashed;
+	border-top-color: #000000;
+	text-align: right;
+	font-size: small;
+	margin-top: 1em;
+}
+
+

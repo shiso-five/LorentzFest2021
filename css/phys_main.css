@@ -1,0 +1,24 @@
+﻿body {
+	background: #ffffff;
+	font-family:"Meiryo UI", Meiryo, sans-serif;
+}
+
+a:link {
+	color: #008080;
+}
+
+a:visited {
+	color: #008080;
+}
+
+a:active {
+	color: #008080;
+}
+
+#scphys{
+	background-image: url('../images/favicon.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	text-indent:1.3em;
+}
+

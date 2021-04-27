@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Style-type" content="text/css">
+<meta name="keyword" content="京都大学,理学部,理学研究科,物理,宇宙,ローレンツ,ローレンツ祭,Lorentz,Festival,Festa,2021">
+<title>Lorentz Festival 2021</title>
+<link href="/Users/shingo/Documents/phys/cr/LorentzFest/lorentz2021/css/lorentz2021.css" rel="stylesheet" type="text/css">
+</head>
+<frameset rows="180,*" frameborder="0">
+	<frame id="menuframe" src="/Users/shingo/Documents/phys/cr/LorentzFest/lorentz2021/index_files/menu.html" name="menu" noresize>
+	<frame id="bodyframe" src="/Users/shingo/Documents/phys/cr/LorentzFest/lorentz2021/index_files/top.html" name="top">
+</frameset>
+
+</html>

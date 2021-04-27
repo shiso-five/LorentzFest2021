@@ -1,0 +1,93 @@
+﻿div#title_menu{
+	alignment-adjust:central;
+}
+
+table.menu, table.submenu {
+	border-style: none;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table.menu td{
+	background-color: rbga(255,255,255,0.5);
+	border: 1px solid #000000;
+	width: 10em;
+}
+
+table.submenu td {
+	border: 1px solid #000000;
+	width: 10em;
+	background-color: #fef4f4;
+}
+
+.menu a, .menu span {
+	font-weight:bold;
+	border-style: none;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.menu a:link {
+	color: #223a70;
+	background-color: rbga(255,255,255,0.5);
+}
+.menu a:visited {
+	/*color: #FFFFFF;*/
+	color: #000000;
+	background-color: rbga(255,255,255,0.5);
+}
+.menu a:hover, .menu a:focus {
+	color: #000000;
+	background-color: #f6ad49;
+}
+
+.menu a:active {
+	color: #eb6101;
+	background-color: #f6ad49;
+}
+
+.menu span {
+	color: #000000;
+	background-color: #eaf4fc;
+}
+
+table.submenu {
+	margin-top: 0.5em;
+}
+
+.submenu a, .submenu span {
+	border-style: none;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: small;
+	padding-right: 1ex;
+	padding-left: 1ex;
+}
+
+.submenu a:link {
+	color: #223a70;
+}
+
+.submenu a:visited {
+	color: #000000;
+	background-color: #fef4f4;
+}
+
+.submenu a:hover, .submenu a:focus {
+	color: #000000;
+	background-color: #f6ad49;
+}
+
+.submenu a:active {
+	color: #eb6101;
+	background-color: #f6ad49;
+}
+
+.submenu span {
+	color: #000000;
+	background-color: #eaf4fc;
+}
